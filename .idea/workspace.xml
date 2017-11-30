@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67bc1c10-5504-4eb5-9a10-3e9ed67f3954" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SentimentAnalysis/.idea/SentimentAnalysis.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SentimentAnalysis/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SentimentAnalysis/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/SentimentAnalysis/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/__version__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/fields.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/inputs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/paging.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/representations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/representations/json.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/reqparse.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/utils/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/utils/cors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flask_restful/utils/crypto.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TwitterSentimentAnalysis/flask-restful" afterPath="$PROJECT_DIR$/TwitterSentimentAnalysis/flask-restful" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TwitterSA.py" afterPath="$PROJECT_DIR$/TwitterSA.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
