@@ -17,7 +17,7 @@
       <file leaf-file-name="TwitterSA.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TwitterSA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="988">
               <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -188,7 +188,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1978" y="-4" width="1863" height="1085" extended-state="6" />
+    <frame x="1978" y="1103" width="1863" height="1085" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24771628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -332,7 +332,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TwitterSA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="988">
           <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
