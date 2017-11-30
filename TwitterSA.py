@@ -13,6 +13,7 @@ TODOS = {
 }
 
 data = dict()
+outer_data = dict()
 def abort_if_todo_doesnt_exist(sentiment_id):
     if sentiment_id not in data:
         abort(404, message="Todo {} doesn't exist".format(sentiment_id))
@@ -57,12 +58,14 @@ class TodoList(Resource):
         todo_id = 'todo%i' % todo_id
         # data[todo_id] = {'task': args['task']}
         responses = compute(args.sentiment)
+        sub_data = dict()
         for i in range (len(responses)):
 
-            data[args.sentiment] = {'tweet' : responses[i].getTweet(), 'polarity' : responses[i].getPolarity(),
+            sub_data[i] = {'tweet' : responses[i].getTweet(), 'polarity' : responses[i].getPolarity(),
                                'subjectivity' : responses[i].getSubjectivity()}
-
-        return data, 201
+        data[args.sentiment] = sub_data
+        outer_data['data'] = data
+        return outer_data, 201
 
 def compute(todo_id):
     search_results = TwitterSearch().search(todo_id)
