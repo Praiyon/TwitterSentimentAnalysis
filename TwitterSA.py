@@ -22,15 +22,14 @@ parser = reqparse.RequestParser()
 parser.add_argument('sentiment')
 
 
-# Todo
-# shows a single todo item and lets you delete a todo item
+
 class Todo(Resource):
     def get(self, sentiment_id):
         abort_if_todo_doesnt_exist(sentiment_id)
         return data[sentiment_id]
 
     def delete(self, sentiment_id):
-        # abort_if_todo_doesnt_exist(todo_id)
+
         del data[sentiment_id]
         return '', 204
 
@@ -46,8 +45,7 @@ class Todo(Resource):
 
 
 
-# TodoList
-# shows a list of all todos, and lets you POST to add new tasks
+
 class TodoList(Resource):
     def get(self):
         return data
