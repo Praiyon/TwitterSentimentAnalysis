@@ -73,9 +73,9 @@ tweepy==3.5.0
 
 
 
-usb-creator==0.3.0
-virtualenv==15.1.0
-Werkzeug==0.12.2
-xdiagnose==3.8.4.1
-xkit==0.0.0
-XlsxWriter==0.7.3
+
+
+
+
+
+
