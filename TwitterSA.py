@@ -12,8 +12,9 @@ TODOS = {
     'todo3': {'task': 'profit!'},
 }
 
-data = dict()
+
 outer_data = dict()
+data = dict()
 def abort_if_todo_doesnt_exist(sentiment_id):
     if sentiment_id not in data:
         abort(404, message="Todo {} doesn't exist".format(sentiment_id))
@@ -23,7 +24,7 @@ parser.add_argument('sentiment')
 
 
 
-class Todo(Resource):
+class sentiment(Resource):
     def get(self, sentiment_id):
         abort_if_todo_doesnt_exist(sentiment_id)
         return data[sentiment_id]
@@ -46,7 +47,7 @@ class Todo(Resource):
 
 
 
-class TodoList(Resource):
+class sentiments(Resource):
     def get(self):
         return data
 
@@ -63,7 +64,7 @@ class TodoList(Resource):
                                'subjectivity' : responses[i].getSubjectivity()}
         data[args.sentiment] = sub_data
         outer_data['data'] = data
-        return outer_data, 201
+        return data[args.sentiment], 201
 
 def compute(todo_id):
     search_results = TwitterSearch().search(todo_id)
@@ -76,8 +77,8 @@ def compute(todo_id):
 ##
 ## Actually setup the Api resource routing here
 ##
-api.add_resource(TodoList, '/sentiment')
-api.add_resource(Todo, '/sentiment/<sentiment_id>')
+api.add_resource(sentiments, '/sentiment')
+api.add_resource(sentiment, '/sentiments/<sentiment_id>')
 
 
 if __name__ == '__main__':
